@@ -4,14 +4,6 @@ public class Main {
         arrayCat();
     }
 
-    static void oneCat(){
-        Cat cat = new Cat("Барсик", 5);
-        Plate plate = new Plate(100);
-        plate.info();
-        cat.eat(plate, cat.getName());
-        plate.info();
-        System.out.println("Кот сыт -> " + cat.satiety);
-    }
 
     static void arrayCat(){
         Plate plate = new Plate(100);
